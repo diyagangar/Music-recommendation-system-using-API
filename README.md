@@ -2,12 +2,12 @@
 The Music Recommendation System is designed to provide personalized music recommendations by leveraging the Spotify Web API. This system integrates various aspects of music data, such as track details, artist information, and audio features, to suggest songs that closely match the musical taste indicated by a user’s selected track. The recommendation process combines content-based filtering with a weighted popularity score to enhance the relevance and appeal of the suggested tracks.
 
 **Key Components**
-1.Authentication with Spotify API:
+1.Authentication with Spotify API
 
 2.The system requires authentication with the Spotify Web API using OAuth. This involves encoding the client ID and client secret into a base64 format and obtaining an access token. This token is essential for making authenticated requests to Spotify’s endpoints.
-Data Retrieval:
 
-3.The system extracts data from a Spotify playlist, including track name, artists, album name, and other metadata. Additionally, it retrieves audio features for each track, such as danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, and tempo. These features are critical for content-based filtering.
+3.Data Retrieval:
+The system extracts data from a Spotify playlist, including track name, artists, album name, and other metadata. Additionally, it retrieves audio features for each track, such as danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, and tempo. These features are critical for content-based filtering.
 Content-Based Filtering:
 
 4.This technique involves analyzing the audio features of the input song and comparing them with the features of other songs in the dataset. By calculating the cosine similarity between the feature vectors, the system identifies tracks with similar characteristics, thus offering recommendations that align with the user's musical preferences.
@@ -47,5 +47,6 @@ This detailed description outlines the comprehensive approach taken by the Music
 5.Hybrid Recommendations: Combines content-based and popularity-based methods for a comprehensive recommendation system.
 
 
-API Details
+**API Details**
+
 Spotify API: The system uses Spotify's Web API to fetch track information and audio features.
