@@ -35,3 +35,14 @@ Music Discovery: Ideal for users looking to explore new music similar to their f
 Personalized Playlists: Can be used by music streaming services to generate personalized playlists for users.
 Music Analytics: Useful for analyzing trends in music preferences and identifying popular songs based on various audio features.
 This detailed description outlines the comprehensive approach taken by the Music Recommendation System to provide accurate and engaging music suggestions, leveraging advanced data retrieval and machine learning techniques.
+
+Features
+Access Token Generation: The system generates an access token using Spotify API credentials.
+Playlist Data Extraction: Fetches and extracts data from Spotify playlists, including track name, artists, album name, release date, and popularity.
+Content-Based Filtering: Provides recommendations based on the similarity of musical features.
+Popularity-Based Recommendations: Weights recommendations based on the popularity of the songs.
+Hybrid Recommendations: Combines content-based and popularity-based methods for a comprehensive recommendation system.
+
+
+API Details
+Spotify API: The system uses Spotify's Web API to fetch track information and audio features.
